@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Comfy House</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!--navbar-->
+    <nav class="navbar">
+      <div class="navbar-center">
+        <span class="nav-icon">
+          <i class="fas fa-bars"></i>
+        </span>
+        <img src="./images/logo.svg" alt="store logo" />
+        <div class="cart-btn">
+          <span class="nav-icon">
+            <i class="fas fa-cart-plus"></i>
+          </span>
+          <div class="cart-items">0</div>
+        </div>
+      </div>
+    </nav>
+    <!--navbar-->
+    <!--hero-->
+    <header class="hero">
+      <div class="banner">
+        <h1 class="banner-title">Articles de maison</h1>
+        <button class="banner-btn">Commandez vite</button>
+      </div>
+    </header>
+    <!--end of hero-->
+    <!--products-->
+    <div class="products">
+      <div class="section-title">
+        <h2>Nos Produits</h2>
+        <div class="products-center">
+          <!--End of Single product-->
+        </div>
+      </div>
+    </div>
+    <!--end of products-->
+    <!--Cart-->
+    <div class="cart-overlay">
+      <div class="cart">
+        <span class="close-cart"> <i class="fas fa-window-close"></i></span>
+        <h2>Votre panier</h2>
+        <div class="cart-content">
+          <!--cart item-->
+          <!-- <div class="cart-item">
+
+          </div> -->
+          <!--end of cart item-->
+        </div>
+        <div class="cart-footer">
+          <h3>Vous Payez : <span class="cart-total">0</span>€</h3>
+          <button class="clear-cart banner-btn">Videz votre Panier</button>
+        </div>
+      </div>
+    </div>
+    <!--end of Cart-->
+    <!--contentful-->
+    <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+    <!--app js-->
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
